@@ -71,3 +71,10 @@ tmp
 #jj
 .newscripts
 .archive/
+
+# Local development files
+.claude/
+Dockerfile.socat
+scripts/devnet_setup.go
+scripts/devnet_setup.py
+scripts/devnet_setup.sh
