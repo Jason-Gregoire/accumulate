@@ -31,6 +31,13 @@ TransactionHeader:
       optional: true
       pointer: true
       repeatable: true
+    - name: UserFees
+      description: specifies optional fees to be paid to service providers on transaction success (AIP-50)
+      type: UserFee
+      optional: true
+      pointer: true
+      marshal-as: reference
+      repeatable: true
 
 Transaction:
   fields:
